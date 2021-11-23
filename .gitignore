@@ -1,0 +1,66 @@
+.DS_Store
+*.swp
+.env
+tags
+tmp/*
+vendor/
+.idea/
+deployment
+public/assets
+Makefile.custom.mk
+Makefile.defaults.custom.mk
+phpunit.xml
+.deptrac.cache
+.nova
+.ignore
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+src/Presentation/Web/Cms/public/build
+src/Presentation/Web/Cms/node_modules
+
+# Log files
+src/Presentation/Web/Cms/npm-debug.log*
+src/Presentation/Web/Cms/yarn-debug.log*
+src/Presentation/Web/Cms/yarn-error.log*
+src/Presentation/Web/Cms/pnpm-debug.log*
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+###> friendsofphp/php-cs-fixer ###
+.php_cs
+.php_cs.cache
+.php_cs.branded.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> lexik/jwt-authentication-bundle ###
+# This is commmented out because we use those commited files for dev and test environments only
+# /config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+bin/local-php-security-checker
+
+###> php lint ###
+.phplint.cache
+###< php lint ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
